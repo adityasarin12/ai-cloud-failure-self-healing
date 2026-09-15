@@ -60,7 +60,7 @@ The current ML pipeline is developed and evaluated using Borg workload traces. A
                             v
                   Cloud Environment
                   (AWS integration)
-
+```
 Risk Assessment
 
 The system combines two signals:
