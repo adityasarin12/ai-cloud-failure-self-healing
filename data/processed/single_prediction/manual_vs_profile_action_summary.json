@@ -1,0 +1,85 @@
+{
+  "manual": {
+    "cases": 503,
+    "risk_min": 0.4237725,
+    "risk_max": 0.9510525,
+    "risk_mean": 0.5373016824055665,
+    "risk_median": 0.5365899999999999,
+    "failure_min": 0.18,
+    "failure_max": 0.99,
+    "anomaly_min": 0.860175,
+    "anomaly_max": 0.999725,
+    "actions": {
+      "Normal": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Scale Resources": {
+        "count": 95,
+        "percentage": 18.8867
+      },
+      "Migrate VM": {
+        "count": 404,
+        "percentage": 80.3181
+      },
+      "Restart Task": {
+        "count": 4,
+        "percentage": 0.7952
+      }
+    }
+  },
+  "realistic_profiles": {
+    "cases": 5000,
+    "risk_min": 0.003656250000000005,
+    "risk_max": 0.99641375,
+    "risk_mean": 0.33036511799999996,
+    "risk_median": 0.203086875,
+    "failure_min": 0.0,
+    "failure_max": 1.0,
+    "anomaly_min": 0.012187500000000018,
+    "anomaly_max": 0.9999625,
+    "actions": {
+      "Normal": {
+        "count": 3824,
+        "percentage": 76.48
+      },
+      "Scale Resources": {
+        "count": 32,
+        "percentage": 0.64
+      },
+      "Migrate VM": {
+        "count": 6,
+        "percentage": 0.12
+      },
+      "Restart Task": {
+        "count": 1138,
+        "percentage": 22.76
+      }
+    }
+  },
+  "manual_normal_reachable": false,
+  "manual_min_upstream": {
+    "failure_probability": 0.18,
+    "calibrated_anomaly": 0.992575
+  },
+  "page_cache": {
+    "training_min": 0.0,
+    "training_p01": 0.0,
+    "training_median": 0.0002269744873046,
+    "training_p99": 0.0024795532226562,
+    "training_max": 0.0043258666992187,
+    "ui_min": 0.0,
+    "ui_max": 0.0024795532226562,
+    "precision": "%.6f",
+    "selected_value": 0.0004148483276367,
+    "submitted_edited_value": 0.0024795532226562
+  },
+  "assigned_memory_changed_features": [
+    "assigned_memory"
+  ],
+  "req_cpu_changed_features": [
+    "req_cpu"
+  ],
+  "ood_features": [],
+  "output": "data\\processed\\single_prediction\\manual_vs_profile_action_analysis.csv"
+}
